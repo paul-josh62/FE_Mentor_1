@@ -1,0 +1,41 @@
+.lighttext {
+  font-size: 14px;
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat', sans-serif;}
+
+button {
+  background-color: darkcyan;
+  border-radius: 3px 3px 3px 3px;
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+#green-price {
+  color: hsl(158, 36%, 37%);
+  font-size: 26px;
+  font-family: 'Fraunces', serif;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 15% 70% 315%;
+}
+
+#text-content {
+  grid-area: 2 / 3; 
+}
+
+#cologne {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  border-radius: 8px 0px 0px 8px;
+}
