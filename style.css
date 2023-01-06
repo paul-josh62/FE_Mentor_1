@@ -1,12 +1,15 @@
 .lighttext {
   font-size: 14px;
-  background-color: hsl(30, 38%, 92%);
   font-family: 'Montserrat', sans-serif;}
 
 button {
   background-color: darkcyan;
   border-radius: 3px 3px 3px 3px;
   color: hsl(0, 0%, 100%);
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-right: 35px;
+  padding-bottom: 5px;
 }
 
 body {
@@ -23,10 +26,16 @@ body {
   display: grid;
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 15% 70% 315%;
+  text-align: left;
+  margin: 85px;
 }
 
 #text-content {
   grid-area: 2 / 3; 
+  padding-left: 25px;
+  padding-top: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 0px 8px 8px 0px;
 }
 
 #cologne {
@@ -38,4 +47,10 @@ body {
   grid-column-start: 2;
   grid-column-end: 3;
   border-radius: 8px 0px 0px 8px;
+}
+
+#prices {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
